@@ -10,5 +10,5 @@ jobs:
       - name: Greet the User
         run: echo "Hello World!"
       - run: ls -l
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - run: ls -l     
